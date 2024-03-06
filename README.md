@@ -20,3 +20,8 @@
 go build main.go -o bin/sps
 OOS=windows GOARCH=amd64 go build -o bin/sps.exe
 ```
+
+### Example
+```
+.\sps.exe -h 172.16.1.1,172.16.1.2 -p 80,81,8080 -t 2 -w 10 
+```
